@@ -1,0 +1,224 @@
+/*This is header section*/
+body{
+	margin: 0;
+	font-family: Segoe UI;
+	background-image: url(images/back.png);
+}
+header{
+	background-color: #23232e;
+	text-align: center;
+	color: white;
+	padding: 60px 0 30px 0;
+}
+header img{
+	height: 90px;
+}
+header p{
+	width: 23%;
+	margin: auto;
+	font-size: 12px;
+	padding-bottom: 110px;
+	line-height: 20px;
+}
+header i{
+	font-size: 15px;
+	border-radius: 50%;
+	border: 3px solid white;
+	padding: 10px;
+}
+header h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	padding-top: 50px;
+}
+
+/*This is what-i-do section*/
+.what-i-do{
+	margin: 80px 0 30px 0;
+	text-align: center;
+	overflow: hidden;
+	color: #464b4f;
+	/*background-image: url(images/back.png);
+	background-size: 100% 100%; */
+}
+.what-i-do p{
+	width: 45%;
+	margin: auto;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+.what-i-do h2{
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.what-i-do .brand .col{
+	width: 31.33%;
+	margin: 0 1%;
+	float: left;
+}
+.what-i-do .brand{
+	width: 53%;
+	margin: auto;
+}
+.what-i-do .brand .col h4{
+	font-size: 17px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.what-i-do .brand .col p{
+	text-align: left;
+	font-size: 12px;
+	line-height: 20px;
+	width: 100%;
+}
+
+/*This is My Work section*/
+.my-work{
+	background-color: #23232e;
+	color: white;
+	text-align: center;
+	padding: 50px 0;
+	overflow: hidden;
+}
+.my-work h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.my-work .menu{
+	margin-bottom: 40px;
+	/*margin-top: 20px;*/
+	padding: 20px;
+}
+.my-work .menu a{
+	text-decoration: none;
+	color: white;
+	padding: 0 10px;
+	font-size: 13px;
+}
+.my-work .works .col1{
+	width: 31.33%;
+	margin: 0 1%;
+	float: left;
+}
+.my-work .works{
+	width: 55%;
+	margin: auto;
+	overflow: hidden;
+}
+.my-work .works .col1 img{
+	width: 100%;
+}
+.my-work .works .col1 p{
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+.my-work .works .col1 h4{
+	margin: 15px 0 7px 0;
+}
+.my-work button{
+	color: white;
+	background-color: #7b77c9;
+	border: 0;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 12px 45px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+/*Margin is for itself, padding is for its
+content*/ /*Padding green, margin yellow*/
+
+/*This is photography section*/
+.photography{
+	text-align: center;
+	padding: 35px 0;
+	/*background-image: url(images/back.png);
+	background-size: 100% 100%;*/
+}
+.photography h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #464b4f;
+	margin-bottom: 20px;
+}
+.photography p{
+	width: 40%;
+	margin: auto;
+	font-size: 20px;
+	color: #888a8b;
+	margin-bottom: 50px;
+}
+.photography .pics{
+	width: 55%;
+	margin: auto;
+	overflow: hidden;
+}
+.photography .pics img{
+	width: 31.33%;
+	margin: 5px 1%;
+	float: left;
+}
+
+.photography button{
+	color: white;
+	background-color: #7b77c9;
+	border: 0;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 12px 33px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+/*This is subscribe section*/
+.subscribe {
+	background-color: #23232e;
+	color: white;
+	text-align: center;
+	padding: 150px;
+}
+.subscribe i{
+	font-size: 50px;
+}
+.subscribe p{
+	width: 40%;
+	margin: auto;
+	padding: 30px 0 40px 0;
+	line-height: 26px;
+}
+.subscribe input{
+	height: 37px;
+	width: 240px;
+	border-radius: 5px;
+	border: 0;
+	padding: 0 10px;
+}
+.subscribe button{
+	color: white;
+	background-color: #7b77c9;
+	border: 0;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 12px 33px;
+	margin-bottom: 30px;
+}
+/*This is footer section*/
+footer{
+	color: gray;
+	text-align: center;
+	padding: 60px 0;
+	/*background-image: url(images/back.png);
+	background-size: 100% 100%;*/
+}
+footer i{
+	font-size: 30px;
+	padding: 6px;
+	background-color: black;
+	border-radius: 5px;
+	margin: 10px 5px 55px 5px;
+}
+footer i:hover{
+	color: black;
+	background-color: gray;
+}
